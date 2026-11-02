@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "chunkmarker",
+	"version": "${version}",
+	"name": "Chunk Marker",
+	"description": "Marks chunks that contain grown vines, level-5 beehives, kelp that reached the surface and amethyst clusters. Right Shift opens the settings.",
+	"authors": [
+		"senin"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/chunkmarker/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.senin.chunkmarker.ChunkMarkerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
